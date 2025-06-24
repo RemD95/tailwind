@@ -588,8 +588,8 @@ video {
   }
 }
 
-.m-84 {
-  margin: 21rem;
+.m-2 {
+  margin: 0.5rem;
 }
 
 .mx-auto {
@@ -604,6 +604,10 @@ video {
 
 .p-72 {
   padding: 18rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
 }
 
 .px-4 {
