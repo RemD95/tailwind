@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="./output.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: rgb(30, 94, 167)
+                    }
+                }
+            }
+        }
+    </script>
 </head>
+
 <body>
-    <h1 class="text-3xl font-bold underline text-red-600">
-    Hello world!
-  </h1>
-  <p class="font-bold text-xl text-blue-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, debitis! Odio quae ducimus, facere consectetur doloremque expedita repudiandae, eius unde tempora distinctio eveniet ea quas iure dolorum mollitia, minus ab?</p>
-  <ul class="text-green-400 leading-relaxed underline">
-    <li>list item</li>
-    <li>list item</li>
-    <li>list item</li>
-    <li>list item</li>
-  </ul>
+    <div class="container mx-auto px-4 py-8 bg-gray-800">
+        <h1 class="text-3xl font-bold underline text-red-600">
+            Hello world!
+        </h1>
+        <p class="font-bold text-xl text-blue-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+            debitis! Odio quae ducimus, facere consectetur doloremque expedita repudiandae, eius unde tempora distinctio
+            eveniet ea quas iure dolorum mollitia, minus ab?</p>
+        <ul class="text-green-400 leading-relaxed underline">
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+        </ul>
+    </div>
 </body>
+
 </html>
