@@ -605,13 +605,16 @@ video {
   height: 33.333333%;
 }
 
-.w-min {
-  width: -moz-min-content;
-  width: min-content;
-}
-
 .w-64 {
   width: 16rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-brdbg {
@@ -638,9 +641,18 @@ video {
   padding: 0.25rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .py-8 {
@@ -688,4 +700,14 @@ video {
 
 .underline {
   text-decoration-line: underline;
+}
+
+.dark\:bg-gray-800:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1));
+}
+
+.dark\:text-white:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
