@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: rgb(30, 94, 167)
+        primary: '#2757a9',
+        btnbg: '#9927a9',
       },
       spacing: {
         '1': '0.25rem',
