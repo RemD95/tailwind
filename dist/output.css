@@ -592,9 +592,18 @@ video {
   margin: 0.5rem;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.bg-btnbg {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 39 169 / var(--tw-bg-opacity, 1));
 }
 
 .bg-gray-800 {
@@ -642,6 +651,11 @@ video {
 .text-blue-400 {
   --tw-text-opacity: 1;
   color: rgb(96 165 250 / var(--tw-text-opacity, 1));
+}
+
+.text-btntxt {
+  --tw-text-opacity: 1;
+  color: rgb(201 0 118 / var(--tw-text-opacity, 1));
 }
 
 .text-green-400 {
