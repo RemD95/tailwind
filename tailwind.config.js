@@ -6,7 +6,8 @@ export default {
       colors: {
         primary: '#2757a9',
         btnbg: '#9927a9',
-        btntxt:'#c90076'
+        btntxt:'#c90076',
+        brdbg:'#2cb3c7'
       },
       spacing: {
         '1': '0.25rem',
