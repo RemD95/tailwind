@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="../dist/output.css" rel="stylesheet">
-    
+
 </head>
 
 <body>
@@ -24,7 +24,7 @@
             <li>list item</li>
         </ul>
     </div>
-    
+
     <div class=" container p-1 m-2 bg-primary text-xl text-red-600">
         <p>margin e padding personalizzati</p>
     </div>
@@ -47,25 +47,30 @@
         questo elemento in dark mode avra sfondo grigio con testo bianco!
     </div>
     <div class="p-4">
-        <button id="darkModeToggle" class="border px-4 py-1 cursor-pointer">Dark Mode: <span id="darkModeStatus">Inactive</span></button>
+        <button id="darkModeToggle" class="border px-4 py-1 cursor-pointer">Dark Mode: <span
+                id="darkModeStatus">Inactive</span></button>
     </div>
     <script>
-const toggleDarkMode = () => {
-document.body.classList.toggle("dark");
-document.querySelector("#darkModeStatus"). innerHTML = document.body.classList. contains("dark") ? "Active" : "Inactive";
-};
-document. querySelector("#darkModeToggle").addEventListener('click',toggleDarkMode);
-</script>
-<div>
-    <button class="hover:text-red-600 hover:bg-green-400 cusrsor-pointer px-4 py-2 rounded">Clicca qui</button>
-    <button class="hover:text-purple-500 hover:bg-blue-400 cusrsor-pointer px-4 py-2 rounded">indietro</button>
-    <button class="hover:text-green-400 hover:bg-yellow-400 cusrsor-pointer px-4 py-2 rounded">registrati</button>
-</div>
-<input type="text" class="border border-gray-300 focus:border-blue-500" />
-<button class="bg-blue-500 active:bg-blue-700 text-white px-4 py-2 rounded">
-  Clicca qui
-</button>
-
+        const toggleDarkMode = () => {
+            document.body.classList.toggle("dark");
+            document.querySelector("#darkModeStatus").innerHTML = document.body.classList.contains("dark") ? "Active" : "Inactive";
+        };
+        document.querySelector("#darkModeToggle").addEventListener('click', toggleDarkMode);
+    </script>
+    <div>
+        <button class="hover:text-red-600 hover:bg-green-400 cusrsor-pointer px-4 py-2 rounded">Clicca qui</button>
+        <button class="hover:text-purple-500 hover:bg-blue-400 cusrsor-pointer px-4 py-2 rounded">indietro</button>
+        <button class="hover:text-green-400 hover:bg-yellow-400 cusrsor-pointer px-4 py-2 rounded">registrati</button>
+    </div>
+    <input type="text" class="border border-gray-300 focus:border-blue-500" />
+    <button class="bg-blue-500 active:bg-blue-700 text-white px-4 py-2 rounded">
+        Clicca qui
+    </button>
+    <div>
+        <input type="text" class="border border-gray-300 focus:border-blue-500">
+        <button class="hover:text-green-400 hover:bg-yellow-400 cusrsor-pointer px-4 py-2 rounded"
+        disabled>Accetta</button>
+    </div>
 </body>
 
 </html>
