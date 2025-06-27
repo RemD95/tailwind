@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+ @layer components {
+            .card{
+                border: 0.5px solid blue;
+                border-radius: 3px;
+                padding: 10px 20px;
+            }
+
+            .card-one {
+                @apply card text-cardtxt bg-cardbg border-cardbdr inline-block ;           
+            }
+        }

@@ -8,7 +8,10 @@ export default {
         primary: '#2757a9',
         btnbg: '#9927a9',
         btntxt:'#c90076',
-        brdbg:'#2cb3c7'
+        brdbg:'#2cb3c7',
+        cardbg: ' #8200bc ',
+        cardbdr:' #4da1f5 ',
+        cardtxt: '#fbecf7',
       },
       spacing: {
         '1': '0.25rem',
