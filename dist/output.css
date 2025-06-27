@@ -607,6 +607,32 @@ video {
   color: rgb(251 236 247 / var(--tw-text-opacity, 1));
 }
 
+.card-two{
+  border: 0.5px solid blue;
+  border-radius: 3px;
+  padding: 10px 20px;
+  display: inline-block;
+  --tw-border-opacity: 1;
+  border-color: rgb(18 220 225 / var(--tw-border-opacity, 1));
+  --tw-bg-opacity: 1;
+  background-color: rgb(18 220 225 / var(--tw-bg-opacity, 1));
+  --tw-text-opacity: 1;
+  color: rgb(35 13 225 / var(--tw-text-opacity, 1));
+}
+
+.card-three{
+  border: 0.5px solid blue;
+  border-radius: 3px;
+  padding: 10px 20px;
+  display: inline-block;
+  --tw-border-opacity: 1;
+  border-color: rgb(77 161 245 / var(--tw-border-opacity, 1));
+  --tw-bg-opacity: 1;
+  background-color: rgb(18 220 225 / var(--tw-bg-opacity, 1));
+  --tw-text-opacity: 1;
+  color: rgb(251 236 247 / var(--tw-text-opacity, 1));
+}
+
 .m-2 {
   margin: 0.5rem;
 }
@@ -794,3 +820,5 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
+
+         

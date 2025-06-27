@@ -12,4 +12,14 @@
             .card-one {
                 @apply card text-cardtxt bg-cardbg border-cardbdr inline-block ;           
             }
+            
+            .card-two{
+                @apply card text-cardtxtone bg-cardbgone border-cardbdrone inline-block;
+            }
+
+            .card-three {
+                 @apply card text-cardtxt bg-cardbgone border-cardbdr inline-block;
+            }
         }
+
+         

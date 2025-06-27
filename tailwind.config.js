@@ -12,6 +12,9 @@ export default {
         cardbg: ' #8200bc ',
         cardbdr:' #4da1f5 ',
         cardtxt: '#fbecf7',
+        cardbgone: ' #12dce1 ',
+        cardbdrone:' #12dce1 ',
+        cardtxtone: ' #230de1 ',      
       },
       spacing: {
         '1': '0.25rem',
